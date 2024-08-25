@@ -1,12 +1,153 @@
-<<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
         <name>Sapper</name>
-        <update version="0.0.1">
-            <file name="class-sapper.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/Untitled-1" />
+        <update version="0.0.2">
+            <file name="class-sapper.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/sapper.xml?token=GHSAT0AAAAAACT4URZ7KURHLELX6OZQ4TUQZWAHHAA" />
         </update>
     </info>
     
+    <element name="Sapper" type="Class" source="Homebrew" id="ID_WOTC_HB_CLASS_SAPPER">
+        <description>
+            <p>A dwarf charges forward toward the army of ghouls. In his hand is a small pipe, capped and sealed tightly at the ends. He throws it and it explodes on impact, setting fire to the creatures closest to the blast and rending the flesh of the others in a deadly cloud of shrapnel.</p>
+            <p class="indent">A tiefling crouches before a locked door and produces a bit of grey putty and a fuse from her pouch. She inserts the putty into the lock, attaches the fuse, and lights it. After a moment there is an audible crack as a small, focused explosion destroys the locking mechanism from the inside.</p>
+            <p class="indent">Sappers are members of a nameless secret society with expert knowledge of a magical, incendiary substance called "sap powder", which they use to create various explosive devices. Over time, sappers have applied their talents to mining, demolition, breaching fortifications, and even the occasional assassination.</p>
+            <p class="indent">Wherever objects are exploding you will likely find a sapper.</p>
+            <h4>ARCANE EXPLOSIVES</h4>
+            <p>Sap powder can be dissolved in liquid or combined with other dry solids to create powerful incendiary effects. The ingredients and rituals used in the creation of this magical substance are a highly guarded secret, known only to a few in the upper echelons of the worldwide, secret sappers' society. In order to learn the formula, one must achieve a high level of knowledge and spirituality based on concepts of engineering and magical alchemy. As a result, average sappers must rely on their proficiency with a pre-assembled <strong>Sapper's Kit</strong> containing this powder in order to create their explosives.</p>
+            <h4>CREATING A SAPPER</h4>
+            <p>There are many potential questions to ask yourself when creating a sapper. For example, how did you get inducted into the secret order of sappers? Were you once a member of an engineering army corps?</p>
+            <p>Perhaps you come from a long line of civilian engineers with an illustrious family history in the sappers' order. Now that you've been inducted, why did you begin adventuring? Were you sent out on a dark and secret mission by the local chapter of your order? Maybe going on a particular quest is necessary for you to gain the experience needed to advance into sapper leadership.</p>
+            <p>As a class, Sappers tend to place a high value on learning important life lessons, conveying them through the lens of engineering analogies. Is there another sapper you look up to as a role model? Do you have a few favorite philosophical quotes? Consider how your spirituality grows as you gain experience with your explosives.</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make a sapper quickly by following these suggestions. First, Dexterity should be your highest ability score, followed by Constitution. Second, choose either the Acolyte, Noble, or Soldier background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As a Sapper, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per sapper level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per sapper level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, medium armor, heavy armor</li>
+				<li><strong>Weapons:</strong> Clubs, daggers, handaxes, hammers, darts, crossbows, battleaxes, morningstars, warhammers</li>
+				<li><strong>Tools:</strong> Sapper's Kit</li>
+            </ul>
+            <ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Dexterity, Intelligence</li>
+				<li><strong>Skills:</strong> Choose two from Arcana, History, Investigation, Nature, Slieght of Hand, and Stealth</li>
+			</ul>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+				<li>(a) studded leather and a shield or (b) a breast plate</li>
+				<li>(a) a Light Crossbow and 20 bolts or (b) a morningstar</li>
+				<li>a handaxe and a dagger</li>
+				<li>(a) a Dungeoneer's Pack or (b) an Explorer's Pack</li>
+                <li>a Sapper’s Kit and 3 premade Vollokoff’s Cocktails (described below)</li>
+			</ul>
+            <p>Alternatively you may start with 4d4 * 10gp to buy your own equipment.</p>
+            <h5 class="caption">THE SAPPER</h5>
+            <table class="class-features">
+                <thead>
+                    <tr><td class="col-5">Level</td><td class="col-10">Proficiency Bonus</td><td class="col-10">Max Explosivess</td><td class="col-10">Cocktails &amp; Tickers</td><td class="col-10">Focus Charges</td><td class="col-5">Maimers</td><td class="col-10">Arcane Bombs</td><td class="col-60 left">Features</td></tr>
+                </thead>
+                <tr><td> 1st</td><td>+2</td><td>5</td><td>5</td><td>-</td><td>-</td><td>-</td><td class="left">Sappers' Secrets, Vollokoff's Cocktails</td></tr>
+                <tr><td> 2nd</td><td>+2</td><td>6</td><td>5</td><td>1</td><td>-</td><td>-</td><td class="left">Focus Charges</td></tr>
+                <tr><td> 3rd</td><td>+2</td><td>8</td><td>7</td><td>1</td><td>-</td><td>-</td><td class="left">Caustics</td></tr>
+                <tr><td> 4th</td><td>+2</td><td>8</td><td>7</td><td>1</td><td>-</td><td>-</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td> 5th</td><td>+3</td><td>11</td><td>9</td><td>1</td><td>1</td><td>-</td><td class="left">Maimers, Mixins</td></tr>
+                <tr><td> 6th</td><td>+3</td><td>12</td><td>9</td><td>2</td><td>1</td><td>-</td><td class="left">Potent Cocktails</td></tr>
+                <tr><td> 7th</td><td>+3</td><td>14</td><td>11</td><td>2</td><td>1</td><td>-</td><td class="left">Tickers</td></tr>
+                <tr><td> 8th</td><td>+3</td><td>14</td><td>11</td><td>2</td><td>1</td><td>-</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td> 9th</td><td>+4</td><td>17</td><td>13</td><td>2</td><td>2</td><td>-</td><td class="left">Potent Focus Charges</td></tr>
+                <tr><td>10th</td><td>+4</td><td>18</td><td>13</td><td>3</td><td>2</td><td>-</td><td class="left">Incendiary Strike</td></tr>
+                <tr><td>11th</td><td>+4</td><td>20</td><td>15</td><td>3</td><td>2</td><td>2</td><td class="left">Arcane Bombs</td></tr>
+                <tr><td>12th</td><td>+4</td><td>20</td><td>15</td><td>3</td><td>2</td><td>2</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>13th</td><td>+5</td><td>20</td><td>15</td><td>3</td><td>3</td><td>2</td><td class="left">Potent Maimers</td></tr>
+                <tr><td>14th</td><td>+5</td><td>20</td><td>15</td><td>4</td><td>3</td><td>3</td><td class="left">Potent Caustics</td></tr>
+                <tr><td>15th</td><td>+5</td><td>20</td><td>15</td><td>4</td><td>3</td><td>3</td><td class="left">Mixin Master</td></tr>
+                <tr><td>16th</td><td>+5</td><td>20</td><td>15</td><td>4</td><td>3</td><td>3</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>17th</td><td>+6</td><td>20</td><td>15</td><td>4</td><td>4</td><td>3</td><td class="left">Potent Arcane Bombs</td></tr>
+                <tr><td>18th</td><td>+6</td><td>20</td><td>15</td><td>5</td><td>4</td><td>4</td><td class="left">Safety Expert</td></tr>
+                <tr><td>19th</td><td>+6</td><td>20</td><td>15</td><td>5</td><td>4</td><td>4</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>20th</td><td>+6</td><td>22</td><td>15</td><td>5</td><td>4</td><td>5</td><td class="left"> Sapper Savant</td></tr>
+            </table>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAP_SECRETS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_CAUSTICS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXINS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_TICKERS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_FOCUS_CHARGES"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_INCENDIARY_STRIKE"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ARCANE_BOMBS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_MAIMERS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_CAUSTICS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXIN_MASTER"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_ARCANE_BOMBS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAFETY_EXPERTS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAPPER_SAVANT"/>
+        </description>
+        <sheet display="false">
+            <description>A magical demolotion expert who uses exoplosives from mining to breaching forts.</description>
+        </sheet>
+        <setters>
+            <set name="short">A magical demolotion expert who uses exoplosives from mining to breaching forts.</set>
+            <set name="hd">d8</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HAMMER" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <select type="Proficiency" name="Skill Proficiency (Sapper)" supports="Skill,Sapper" number="2" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAP_SECRETS" level="1"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS" level="1"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES" level="2"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_CAUSTICS" level="3"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS" level="5"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXINS" level="5"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS" level="6"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_TICKERS" level="7"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_FOCUS_CHARGES" level="9"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_INCENDIARY_STRIKE" level="10"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ARCANE_BOMBS" level="11"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_MAIMERS" level="13"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_CAUSTICS" level="14"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXIN_MASTER" level="15"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_ARCANE_BOMBS" level="17"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAFETY_EXPERTS" level="18"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAPPER_SAVANT" level="20"/>
+        </rules>
+        <multiclass id="ID_WOTC_HB_MULTICLASS_SAPPER">
+            <prerequisite>Dexterity 13</prerequisite>
+            <requirements>[dex:13]</requirements>
+            <setters>
+                <set name="multiclass proficiencies"></set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+            </rules>
+        </multiclass>
+    </element>
     
     
-</elements>>
+</elements>
