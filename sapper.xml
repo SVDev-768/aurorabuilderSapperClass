@@ -46,7 +46,7 @@
 				<li>(a) a Light Crossbow and 20 bolts or (b) a morningstar</li>
 				<li>a handaxe and a dagger</li>
 				<li>(a) a Dungeoneer's Pack or (b) an Explorer's Pack</li>
-                <li>a Sapper’s Kit and 3 premade Vollokoff’s Cocktails (described below)</li>
+                <li>a Sapper's Kit and 3 premade Vollokoff's Cocktails (described below)</li>
 			</ul>
             <p>Alternatively you may start with 4d4 * 10gp to buy your own equipment.</p>
             <h5 class="caption">THE SAPPER</h5>
@@ -80,6 +80,7 @@
             <div element="ID_WOTC_PHB_CLASS_FEATURE_COCKTAIL_BASE" />
             <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES"/>
             <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_CAUSTICS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ABILITYSCOREIMPROVEMENT_SAPPER"/>
             <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS"/>
             <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXINS"/>
             <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS"/>
@@ -119,12 +120,13 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
-            <select type="Proficiency" name="Skill Proficiency (Sapper)" supports="Skill,ID_WOTC_HB_CLASS_SAPPER" number="2" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <select type="Proficiency" name="Skill Proficiency (Sapper)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="2" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAP_SECRETS" level="1"/>
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS" level="1"/>
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_COCKTAIL_BASE" level="1"/>
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES" level="2"/>
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_CAUSTICS" level="3"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ABILITYSCOREIMPROVEMENT_SAPPER" level="4" />
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS" level="5"/>
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXINS" level="5"/>
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS" level="6"/>
@@ -181,7 +183,7 @@
         <description>
             <p>Starting at level 1 you can brew Vollokoff's Cocktails. A cocktail consists of a vial full of sap (a liquid solution containing sap powder) that you throw. On impact, it explodes in a 10 ft cube. Creatures inside the cube must make a Dexterity saving throw against your Skill DC. A creature takes fire damage equal to 1d8 + your Dexterity modifier on a failed save or half as much on a successful one.</p>
         </description>
-        <sheet display="false">
+        <sheet>
             <description>You can brew Vollokoff's Cocktails, a throwable explosive. On impact, it explodes in a 10ft cube, making creatures inside make a Dexterity saving throw against your Skill DC.
             A creature takes 1d8 + Your Dex. Modifier on a failed save or half on a successful one.</description>
         </sheet>
@@ -227,6 +229,20 @@
         <sheet usage="3/Long Rest">
             <description> You can cauterize a wound, either on yourself or on another creature. This technique regains hit points equal to 1d6 + your proficiency bonus and takes 5 minutes to perform.</description>
         </sheet>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ABILITYSCOREIMPROVEMENT_SAPPER">
+        <description>
+            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Improvement Option (Sapper 4)" supports="Improvement Option,Sapper,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Sapper 8)" supports="Improvement Option,Sapper,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Sapper 10)" supports="Improvement Option,Sapper,10" level="10" />
+			<select type="Class Feature" name="Improvement Option (Sapper 12)" supports="Improvement Option,Sapper,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Sapper 16)" supports="Improvement Option,Sapper,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Sapper 19)" supports="Improvement Option,Sapper,19" level="19" />
+		</rules>
     </element>
     <element name="Maimers" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS">
         <description>
@@ -363,6 +379,4 @@
             <description> Because of how skill you are now at engineering, you can no longer be injured if you are in the blast radius of an explosive that you deliberately trigger.</description>
         </sheet>
     </element>
-
-    
 </elements>

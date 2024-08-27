@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Weapons</name>
+		<update version="0.0.1">
+			<file name="items-weapons.xml" url="" />
+		</update>
+	</info>
+    <element name="Shovel" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_SHOVEL">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+        <description>
+			<p>A wooden shaft with an iron spade on one end. While meant for cutting into dirt, this tool is surprisingly effective at cutting foes. In areas where traditional weapons are forbidden, the humble shovel is often permitted.</p>
+            <p><b>Destructive.</b> Attacks with a destructive weapon deal double damage to objects and structures.</p>
+            <p><b>Unassuming.</b> An unassuming weapon can be brought through areas where conventional weapons are forbidden, such as through the guarded entrance of a city.</p>
+        </description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="5">5 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d4</set>
+            <set name="versatile">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHOVEL</set>
+		</setters>
+    </element>
+    
+</elements>

@@ -7,26 +7,27 @@
 			<file name="items-tools.xml" url="" />
 		</update>
     </info>
+
+    <!-- A custom tool that is commonly used by the homebrew "Sapper" Class-->
     <element name="Sapper's Kit" type="Item" source="Homebrew" id="ID_WOTC_HB_ITEM_SAPPERS_KIT">
         <description>
-            <p>A specialized kit only held among Sappers who understands the dangers and uses of sap powder. Proficiency with the tools grants you the knowledge to safely handling, brewing, and storing explosives</p>
             <p class="indent"><strong><em>Components.</em></strong> Vials, rags, corks, fuses, adhesive, a mechanical drill, some small basic tools, circular caps, scored metal sheaths, various herbs, and healthy supply of sap powder</p>
             <p class="indent"><strong><em>Brewing.</em></strong> Including a pinch of sap powder into recipes you concoct is what makes the recipes explosive. The amount of explosives you can safely carry at one time is dictated by the Max Explosives column of the Sapper Table.</p>
             <p class="indent"><strong><em>Storage.</em></strong> Your explosives are well-made and enclosed in protective casings. Unless otherwise specified, they can not be detonated while you are carrying them due to enemy attacks.</p>
             <p class="indent"><strong><em>Attacking.</em></strong> Since your ability to do damage is related to your ability to build, place, and throw explosive devices, you can use Dexterity as your attack and damage modifiers. Damage dealt by your explosives is magical damage.</p>
             <p class="indent"><strong><em>Saving Throws.</em></strong> Various class features will require targets to make saving throws. Unless otherwise specified, these should be made against your Skill DC, which is: <b>Skill DC</b> = 8 + Your Proficiency Bonus + Your Dexterity Modifier</p>
+            <h5>Sapper's Kit</h5>
+            <table>
+                <thead>
+                    <tr><td>Explosive</td><td>Minimum Level</td><td>When?</td></tr>
+                </thead>
+                <tr><td>Vollokoff's Cocktails</td><td>1</td><td>Short or Long Rest</td></tr>
+                <tr><td>Focus Charge</td><td>2</td><td>Long Rest</td></tr>
+                <tr><td>Maimers</td><td>5</td><td>2 Long Rests (Many can be made simultaneously)</td></tr>
+                <tr><td>Tickers</td><td>7</td><td>Short or Long Rest</td></tr>
+                <tr><td>Arcane Bomb</td><td>11</td><td>Long Rest</td></tr>
+            </table>
         </description>
-        <h5>Sapper's Kit</h5>
-        <table>
-            <thead>
-                <tr><td>Explosive being brewed</td><td>Minimum Level needed</td><td>When it can be done?</td></tr>
-            </thead>
-            <tr><td>Vollokoff's Cocktails</td><td>1</td><td>Short or Long Rest</td></tr>
-            <tr><td>Focus Charge</td><td>2</td><td>Long Rest</td></tr>
-            <tr><td>Maimers</td><td>5</td><td>2 Long Rests (Many can be made simultaneously)</td></tr>
-            <tr><td>Tickers</td><td>7</td><td>Short or Long Rest</td></tr>
-            <tr><td>Arcane Bomb</td><td>11</td><td>Long Rest</td></tr>
-        </table>
         <setters>
             <set name="category">Tools</set>
             <set name="cost" currency="gp">10</set>
@@ -35,6 +36,15 @@
             <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT</set>
         </setters>
     </element>
-        
+
+    <!-- Required to put a custom proficiency into the Aurora program -->
+    <element name="Tool Proficiency (Sapper's Kit)" type="Proficiency" source="Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT">
+        <supports>Tool</supports>
+        <requirements />
+        <description>
+            <p>A specialized kit only held among Sappers who understands the dangers and uses of sap powder. Proficiency with the tools grants you the knowledge to safely handling, brewing, and storing explosives</p>
+        </description>
+        <rules />
+    </element>
         
 </elements>
