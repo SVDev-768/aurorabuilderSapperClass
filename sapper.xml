@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Sapper</name>
-        <update version="0.0.2">
+        <update version="0.1.2">
             <file name="class-sapper.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/sapper.xml?token=GHSAT0AAAAAACT4URZ7KURHLELX6OZQ4TUQZWAHHAA" />
         </update>
     </info>
@@ -165,9 +165,7 @@
             <p class="indent"><strong>Skill DC</strong> = 8 + your proficiency bonus + your dexterity modifier</p>
         </description>
         <sheet>
-            <description>You gain proficiency with a Sapper's Kit. The amount of explosives you can safely carry at one time is dictated by the Max Explosives Column of the Sapper Table
-            You can use Dexterity as your attack and damage modifiers. Damage dealt by your explosives is magical damage. Various class features will require targets to make saving throws. 
-            Unless otherwise specified, these should be made against your Skill DC, which is: <strong>Skill DC</strong> = 8 + Prof. Bonus ({{prof-bonus:amount}}) + Your Dexterity Modifier</description>
+            <description>You gain proficiency with a Sapper's Kit. The amount of explosives you can safely carry at one time is dictated by the Max Explosives Column of the Sapper Table. You can use Dexterity as your attack and damage modifiers. Damage dealt by your explosives is magical damage. Various class features will require targets to make saving throws. Unless otherwise specified, these should be made against your <b>Skill DC</b> (8 + Prof. Bonus ({{prof-bonus:amount}}) + Your Dexterity Modifier)</description>
         </sheet>
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT" />
@@ -181,11 +179,14 @@
     </element>
     <element name="Vollokoff's Cocktails" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS">
         <description>
-            <p>Starting at level 1 you can brew Vollokoff's Cocktails. A cocktail consists of a vial full of sap (a liquid solution containing sap powder) that you throw. On impact, it explodes in a 10 ft cube. Creatures inside the cube must make a Dexterity saving throw against your Skill DC. A creature takes fire damage equal to 1d8 + your Dexterity modifier on a failed save or half as much on a successful one.</p>
+            <p>Starting at level 1 you can brew Vollokoff's Cocktails.</p>
+            <p class="indent">A cocktail consists of a vial full of sap (a liquid solution containing sap powder) that you throw.</p>
+            <p class="indent"><b>Damage rules.</b> On impact, it explodes in a 10 ft cube.</p>
+            <p class="indent"><b>DC Saves.</b> Creatures inside the cube must make a Dexterity saving throw against your Skill DC. <b>Skill DC:</b> 8 + your proficiency bonus + your dexterity modifier</p>
+            <p class="indent"><b>Brewing.</b> Vollokoff's Cocktails can be brewed during a short or long rest. The maximum amount of cocktails you can carry at once is dictated by the Cocktails &amp; Tickers column of the Sapper table. </p>
         </description>
         <sheet>
-            <description>You can brew Vollokoff's Cocktails, a throwable explosive. On impact, it explodes in a 10ft cube, making creatures inside make a Dexterity saving throw against your Skill DC.
-            A creature takes 1d8 + Your Dex. Modifier on a failed save or half on a successful one.</description>
+            <description>You can brew Vollokoff's Cocktails, a throwable cocktail consists of a vial full of sap (a liquid solution containing sap powder).</description>
         </sheet>
         <!--Add rules bonuses for when Potent Cocktails is unlocked-->
     </element>

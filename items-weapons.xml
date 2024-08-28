@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Weapons</name>
-		<update version="0.0.1">
+		<update version="0.0.4">
 			<file name="items-weapons.xml" url="" />
 		</update>
 	</info>
@@ -22,6 +22,71 @@
             <set name="versatile">1d6</set>
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHOVEL</set>
 		</setters>
+    </element>
+    
+    <!-- Sapper's Custom Weapons -->
+    <!-- ID_INTERNAL_DAMAGE_TYPE_FIRE for moltov weapons -->
+    <element name="Vollokoff Cocktail" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_VOLLOKOFF_COCKTAIL">
+        <supports>ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 1 level in the Sapper Class</h5>
+            <p>A cocktail consists of a vial full of sap (a liquid solution containing sap powder) that you throw.</p>
+            <p class="indent"><b>Damage rules.</b> On impact, it explodes in a 10 ft cube.</p>
+            <p class="indent"><b>DC Saves.</b> Creatures inside the cube must make a Dexterity saving throw against your Skill DC. <b>Skill DC:</b> 8 + your proficiency bonus + your dexterity modifier</p>
+            <p class="indent"><b>Brewing.</b> Vollokoff's Cocktails can be brewed during a short or long rest. The maximum amount of cocktails you can carry at once is dictated by the Cocktails &amp; Tickers column of the Sapper table. </p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">5</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">30/60</set>
+            <set name="damage" type="fire">1d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_VOLLOKOFFCOCKTAIL</set>
+        </setters>
+    </element>
+
+    <element name="Focus Charges" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_FOCUS_CHARGES">
+        <supports>ID_INTERNAL_DAMAGE_TYPE_FORCE</supports>
+        <description>
+            <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 2 level in the Sapper Class</h5>
+            <p>A focus charge is comprised of a short fuse attached to a bit of moldable putty that can be squeezed into small holes or stuck to relatively flat surfaces.</p>
+            <p class="indent"><b>Prepping.</b> It takes a full minute to prepare a focus charge and 10 seconds for the fuse to burn before the charge detonates.</p>
+            <p class="indent"><b>Brewing.</b> Because sap takes a few hours to distill and condense into charge putty, you can only make these during a long rest.</p>
+            <p class="indent"><b>Damage Rules.</b>To use a focus charge, make an attack roll against the object you are attempting to damage or destroy. If you successfully breach the object's AC, it takes force damage equal to 3d8 + your Dexterity modifier. Add another 3d8 for every charge you stack. Because this is a precision explosion, items behind the affected object (i.e items inside a chest or behind a door) are unaffected as long as you don't roll a natural 1 on your attack roll.</p>
+            <p class="indent"><b>Noise.</b>When a focus charge detonates, it is noisy. A loud crack can be heard 100 ft. away.</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="0.1">1/10 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="force">3d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FOCUS_CHARGES</set>
+        </setters>
+    </element>
+
+    <element name="Maimers" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_MAIMERS">
+        <supports>ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+        <description>
+            <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 5 level in the Sapper Class</h5>
+            <p>A spinoff of Vollokoff's Cocktail packed tightly inside a scored metal sheath filled with nails.</p>
+            <p class="indent"><b>Brewing.</b> Maimers take a few hours to build so it takes 2 long rests to make them, though you can make many simultaneously. The maximum amount of maimers you can carry at once is dictated by the Maimers column of the Sapper table.</p>
+            <p class="indent"><b>Damage Rules.</b> Like a cocktail, it is thrown and then detonates on impact. When it explodes, it does so in a 20 ft cube centered on a point you choose within range. Creatures within the innermost 10 ft. of the cube take 2d8 fire damage + 2d8 piercing damage. Creatures in the outer area take only 2d8 piercing damage. All creatures in the affected area make a Dexterity saving throw and take only half damage if they succeed.</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">30/60</set>
+            <set name="damage" type="fire">2d8</set>
+            <set name="versatile">2d6 (piercing)</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FOCUS_CHARGES</set>
+        </setters>
     </element>
     
 </elements>
