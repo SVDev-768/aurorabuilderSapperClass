@@ -25,7 +25,6 @@
     </element>
     
     <!-- Sapper's Custom Weapons -->
-    <!-- ID_INTERNAL_DAMAGE_TYPE_FIRE for moltov weapons -->
     <element name="Vollokoff Cocktail" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_VOLLOKOFF_COCKTAIL">
         <supports>ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
         <description>
@@ -51,7 +50,7 @@
         <supports>ID_INTERNAL_DAMAGE_TYPE_FORCE</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
-            <h5>Players can't carry these items for adventures if they don't have at least 2 level in the Sapper Class</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 2 levels in the Sapper Class</h5>
             <p>A focus charge is comprised of a short fuse attached to a bit of moldable putty that can be squeezed into small holes or stuck to relatively flat surfaces.</p>
             <p class="indent"><b>Prepping.</b> It takes a full minute to prepare a focus charge and 10 seconds for the fuse to burn before the charge detonates.</p>
             <p class="indent"><b>Brewing.</b> Because sap takes a few hours to distill and condense into charge putty, you can only make these during a long rest.</p>
@@ -72,7 +71,7 @@
         <supports>ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
-            <h5>Players can't carry these items for adventures if they don't have at least 5 level in the Sapper Class</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 5 levels in the Sapper Class</h5>
             <p>A spinoff of Vollokoff's Cocktail packed tightly inside a scored metal sheath filled with nails.</p>
             <p class="indent"><b>Brewing.</b> Maimers take a few hours to build so it takes 2 long rests to make them, though you can make many simultaneously. The maximum amount of maimers you can carry at once is dictated by the Maimers column of the Sapper table.</p>
             <p class="indent"><b>Damage Rules.</b> Like a cocktail, it is thrown and then detonates on impact. When it explodes, it does so in a 20 ft cube centered on a point you choose within range. Creatures within the innermost 10 ft. of the cube take 2d8 fire damage + 2d8 piercing damage. Creatures in the outer area take only 2d8 piercing damage. All creatures in the affected area make a Dexterity saving throw and take only half damage if they succeed.</p>
@@ -86,6 +85,112 @@
             <set name="damage" type="fire">2d8</set>
             <set name="versatile">2d6 (piercing)</set>
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FOCUS_CHARGES</set>
+        </setters>
+    </element>
+
+    <element name="Tickers" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_TICKERS">
+        <supports>ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 7 levels in the Sapper Class</h5>
+            <p>Another cocktail spinoff using adhesive and an extra ingredient that begins dissolving once the ticker is placed. Once the solution reaches a particular alchemical state due to the dissolving ingredient, the ticker detonates.</p>
+            <p class="indent"><b>Damage rules.</b> You may affix up to 3 tickers onto surfaces, objects, or creatures you can reach while taking movement, or in place of your movement. At the end of your next turn (i.e. 6 seconds later) all the tickers you placed on this turn explode, affecting all creatures within a 15 ft. radius of each explosion center. All creatures in the affected area make a Dexterity saving throw, taking fire damage (or your mixin damage type) equal to 1d12 + your dexterity modifier on a failed save or half as much on a successful one. If blast areas overlap, creatures within overlapping blast areas must make saving throws and associated damage rolls for each blast contributing to the overlap.</p>
+            <p class="indent"><b>DC Saves.</b>  If you affix a ticker to a creature's body, it makes a Wisdom saving throw (DC equal to 15 + your proficiency bonus) at the beginning of its turn. On a failed save, it does not notice you have placed an explosive on its body and it automatically fails the Dexterity save when the device detonates.</p>
+            <p class="indent"><b>Brewing.</b> They can be made during a long or short rest. The maximum amount of tickers you can carry at once is dictated by the Cocktails &amp; Tickers column of the Sapper table.</p>
+            <p class="indent"><b>Throwing.</b> Tickers do not explode on impact if thrown.</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="0.1">1/10 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">30/60</set>
+            <set name="damage" type="fire">1d12</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TICKERS</set>
+        </setters>
+    </element>
+
+    <element name="Arcane Bomb" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_ARCANE_BOMB">
+        <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 11 levels in the Sapper Class</h5>
+            <p>An explosive that also contains a special sap powder recipe to mimic a 5th spell or lower.</p>
+            <p class="indent"><b>Brewing.</b> To make an arcane bomb, choose any spell of 5th level or lower that functions as a ranged attack and deals damage in a cube or sphere. You brew a special sap powder recipe with the ability to trigger this spell and place it into a vial. Arcane bombs may be made during a long rest. The maximum amount of arcane bombs you can carry at once is dictated by the Arcane Bombs column of the Sapper table. </p>
+            <p class="indent"><b>DC Saves.</b> Throwing the vial constitutes casting that spell at 5th level. The Spell DC for all arcane bombs is your <b>Skill DC</b> (8 + your proficiency bonus + your dexterity modifier)</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">30/60</set>
+            <set name="damage" type="magic"></set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ARCANE_BOMB</set>
+        </setters>
+    </element>
+
+    <element name="Flashbang" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_FLASHBANG">
+        <supports>ID_INTERNAL_DAMAGE_TYPE_RADIANT, ID_INTERNAL_DAMAGE_TYPE_THUNDER, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+        <description>
+            <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 15 levels in the Sapper Class</h5>
+            <h5>Sapper Mixin Master Cocktail&#10;</h5>
+            <p>A special cocktail type that acts as a method to stun enemies in battle.</p>
+            <p class="indent"><b>Damage &amp; DC Saves.</b> Creatures within a 30 ft. radius of a point you choose within range must make a Dexterity saving throw. On a failed save, a creature is Stunned for its next 2 turns. It also takes 1d12 radiant damage and 1d12 thunder damage. On a successful save, a creature takes half damage and is not Stunned. Thunder can be heard 100 ft. away.</p>
+            <p class="indent"><b>Brewing.</b>  Can be brewed during a short or long rest in the place of a Vollokoff's Cocktail as a result of using the "Mixin Master" class feature. The maximum amount of flashbang cocktails you can carry at once is dictated by the Cocktails &amp; Tickers column of the Sapper table.</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">40/80</set>
+            <set name="damage" type="radiant">1d12</set>
+            <set name="versatile">1d12 (thunder)</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FLASHBANG</set>
+        </setters>
+    </element>
+
+    <element name="Smoke Grenade" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_SMOKE_GRENADE">
+        <supports> ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 15 levels in the Sapper Class</h5>
+            <h5>Sapper Mixin Master Cocktail&#10;</h5>
+            <p>A special cocktail type that creates a large cloud of smoke to break line of sight.</p>
+            <p class="indent"><b>Area of Effect.</b> A cloud of black smoke appears in a 40 ft. cube centered on a point you choose within range. The cloud spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>
+            <p class="indent"><b>Brewing.</b>  Can be brewed during a short or long rest in the place of a Vollokoff's Cocktail as a result of using the "Mixin Master" class feature. The maximum amount of flashbang cocktails you can carry at once is dictated by the Cocktails &amp; Tickers column of the Sapper table.</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">40/80</set>
+            <set name="damage" type="">-</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SMOKE_GRENADE</set>
+        </setters>
+    </element>
+
+    <element name="Pressure Wave" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_PRESSURE_WAVE">
+        <supports> ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
+            <h5>Players can't carry these items for adventures if they don't have at least 15 levels in the Sapper Class</h5>
+            <h5>Sapper Mixin Master Cocktail&#10;</h5>
+            <p>A special cocktail type that focuses on pushing foes back.</p>
+            <p class="indent"><b>Area of Effect.</b>  Creatures within a 15 ft. cone beginning at a point you choose within range must make a Dexterity saving throw. On a failed save, a creature is pushed back 15 ft. and is knocked prone. On a successful save, it is pushed back 5 ft. and is not prone.</p>
+            <p class="indent"><b>Brewing.</b>  Can be brewed during a short or long rest in the place of a Vollokoff's Cocktail as a result of using the "Mixin Master" class feature. The maximum amount of flashbang cocktails you can carry at once is dictated by the Cocktails &amp; Tickers column of the Sapper table.</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="0.5">½ lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">40/80</set>
+            <set name="damage" type="">-</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PRESSURE_WAVE</set>
         </setters>
     </element>
     
