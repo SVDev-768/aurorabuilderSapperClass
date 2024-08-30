@@ -75,25 +75,25 @@
                 <tr><td>19th</td><td>+6</td><td>20</td><td>15</td><td>5</td><td>4</td><td>4</td><td class="left">Ability Score Improvement</td></tr>
                 <tr><td>20th</td><td>+6</td><td>22</td><td>15</td><td>5</td><td>4</td><td>5</td><td class="left"> Sapper Savant</td></tr>
             </table>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAP_SECRETS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_COCKTAIL_BASE" />
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_CAUSTICS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ABILITYSCOREIMPROVEMENT_SAPPER"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXINS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_TICKERS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_FOCUS_CHARGES"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_INCENDIARY_STRIKE"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ARCANE_BOMBS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_MAIMERS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_CAUSTICS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXIN_MASTER"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_ARCANE_BOMBS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAFETY_EXPERTS"/>
-            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAPPER_SAVANT"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_SAP_SECRETS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_COCKTAIL_BASE" />
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_CAUSTICS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_ABILITYSCOREIMPROVEMENT_SAPPER"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_MAIMERS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_MIXINS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_TICKERS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_POTENT_FOCUS_CHARGES"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_INCENDIARY_STRIKE"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_ARCANE_BOMBS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_POTENT_MAIMERS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_POTENT_CAUSTICS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_MIXIN_MASTER"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_POTENT_ARCANE_BOMBS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_SAFETY_EXPERTS"/>
+            <div element="ID_WOTC_SHB_CLASS_FEATURE_SAPPER_SAPPER_SAVANT"/>
         </description>
         <sheet display="false">
             <description>A magical demolotion expert who uses exoplosives from mining to breaching forts.</description>
