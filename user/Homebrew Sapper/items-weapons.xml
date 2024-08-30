@@ -3,7 +3,7 @@
     <info>
 		<name>Weapons</name>
 		<update version="0.0.6">
-			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/user/items-weapons.xml" />
+			<file name="items-weapons.xml" url="" />
 		</update>
 	</info>
     <element name="Shovel" type="Weapon" source="Sapper Homebrew" id="ID_WOTC_SHB_WEAPON_SHOVEL">
