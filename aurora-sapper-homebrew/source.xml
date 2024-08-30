@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.3">
-			<file name="sources.xml" url="" />
+		<update version="0.0.4">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/source.xml" />
 		</update>
 	</info>
 	<element name="Sapper Homebrew" type="Source" source="Core" id="ID_TMBLR_SOURCE_SAPPER_HOMEBREW">
@@ -12,8 +12,8 @@
 		<setters>
 			<set name="abbreviation">SHB</set>
             <set name="url">https://www.tumblr.com/brewskis-dnd-homebrewery/175262046268/sapper</set>
-            <set name="image"></set>
-            <set name="author" abbreviation="TMBLR" url="http://dnd.wizards.com">Wizards of the Coast</set>
+            <set name="image">https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/Sapper-Icon.png</set>
+            <set name="author" abbreviation="BDNDHB" url="https://www.tumblr.com/brewskis-dnd-homebrewery">Tumblr</set>
             <set name="homebrew">true</set>
             <set name="release">20180625</set>
 		</setters>

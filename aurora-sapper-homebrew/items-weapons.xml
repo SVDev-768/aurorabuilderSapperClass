@@ -2,11 +2,11 @@
 <elements>
     <info>
 		<name>Weapons</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/items-weapons.xml" />
 		</update>
 	</info>
-    <element name="Shovel" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_SHOVEL">
+    <element name="Shovel" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_SHOVEL">
         <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
         <description>
 			<p>A wooden shaft with an iron spade on one end. While meant for cutting into dirt, this tool is surprisingly effective at cutting foes. In areas where traditional weapons are forbidden, the humble shovel is often permitted.</p>
@@ -25,7 +25,7 @@
     </element>
     
     <!-- Sapper's Custom Weapons -->
-    <element name="Vollokoff Cocktail" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_VOLLOKOFF_COCKTAIL">
+    <element name="Vollokoff Cocktail" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_VOLLOKOFF_COCKTAIL">
         <supports>ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
@@ -46,7 +46,7 @@
         </setters>
     </element>
 
-    <element name="Focus Charges" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_FOCUS_CHARGES">
+    <element name="Focus Charges" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_FOCUS_CHARGES">
         <supports>ID_INTERNAL_DAMAGE_TYPE_FORCE</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
@@ -67,7 +67,7 @@
         </setters>
     </element>
 
-    <element name="Maimers" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_MAIMERS">
+    <element name="Maimers" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_MAIMERS">
         <supports>ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
@@ -88,7 +88,7 @@
         </setters>
     </element>
 
-    <element name="Tickers" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_TICKERS">
+    <element name="Tickers" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_TICKERS">
         <supports>ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
@@ -110,7 +110,7 @@
         </setters>
     </element>
 
-    <element name="Arcane Bomb" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_ARCANE_BOMB">
+    <element name="Arcane Bomb" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_ARCANE_BOMB">
         <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
@@ -130,7 +130,7 @@
         </setters>
     </element>
 
-    <element name="Flashbang" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_FLASHBANG">
+    <element name="Flashbang" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_FLASHBANG">
         <supports>ID_INTERNAL_DAMAGE_TYPE_RADIANT, ID_INTERNAL_DAMAGE_TYPE_THUNDER, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
@@ -152,7 +152,7 @@
         </setters>
     </element>
 
-    <element name="Smoke Grenade" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_SMOKE_GRENADE">
+    <element name="Smoke Grenade" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_SMOKE_GRENADE">
         <supports> ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>
@@ -173,7 +173,7 @@
         </setters>
     </element>
 
-    <element name="Pressure Wave" type="Weapon" source="Homebrew" id="ID_WOTC_HB_WEAPON_PRESSURE_WAVE">
+    <element name="Pressure Wave" type="Weapon" source="Sapper Homebrew" id="ID_BDNDHB_SHB_WEAPON_PRESSURE_WAVE">
         <supports> ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
         <description>
             <h5>Required proficiency to also be proficient in this item: Sapper's Kit</h5>

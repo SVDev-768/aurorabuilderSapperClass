@@ -3,13 +3,13 @@
     <info>
         <name>Tools</name>
         <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Homebrew</author>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="items-tools.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/items-tools.xml" />
 		</update>
     </info>
 
     <!-- A custom tool that is commonly used by the homebrew "Sapper" Class-->
-    <element name="Sapper's Kit" type="Item" source="Homebrew" id="ID_WOTC_HB_ITEM_SAPPERS_KIT">
+    <element name="Sapper's Kit" type="Item" source="Sapper Homebrew" id="ID_BDNDHB_SHB_ITEM_SAPPERS_KIT">
         <description>
             <p class="indent"><strong><em>Components.</em></strong> Vials, rags, corks, fuses, adhesive, a mechanical drill, some small basic tools, circular caps, scored metal sheaths, various herbs, and healthy supply of sap powder</p>
             <p class="indent"><strong><em>Brewing.</em></strong> Including a pinch of sap powder into recipes you concoct is what makes the recipes explosive. The amount of explosives you can safely carry at one time is dictated by the Max Explosives column of the Sapper Table.</p>
@@ -38,7 +38,7 @@
     </element>
 
     <!-- Required to put a custom proficiency into the Aurora program -->
-    <element name="Tool Proficiency (Sapper's Kit)" type="Proficiency" source="Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT">
+    <element name="Tool Proficiency (Sapper's Kit)" type="Proficiency" source="Sapper Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT">
         <supports>Tool</supports>
         <requirements />
         <description>
