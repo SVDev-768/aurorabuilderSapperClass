@@ -2,7 +2,7 @@
 <elements>
     <info>
 		<name>Weapons</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/items-weapons.xml" />
 		</update>
 	</info>

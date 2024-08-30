@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Sapper</name>
-        <update version="0.1.2">
+        <update version="0.1.3">
             <file name="class-sapper.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/sapper.xml" />
         </update>
     </info>
