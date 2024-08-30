@@ -6,7 +6,7 @@
 			<file name="items-weapons.xml" url="https://github.com/SVDev-768/aurorabuilderSapperClass/blob/main/user/Homebrew%20Sapper/items-weapons.xml" />
 		</update>
 	</info>
-    <element name="Shovel" type="Weapon" source="Sapper Homebrew" id="ID_WOTC_SHB_WEAPON_SHOVEL">
+    <element name="Shovel" type="Weapon" source="Shovel Homebrew" id="ID_WOTC_SHVLHB_WEAPON_SHOVEL">
         <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
         <description>
 			<p>A wooden shaft with an iron spade on one end. While meant for cutting into dirt, this tool is surprisingly effective at cutting foes. In areas where traditional weapons are forbidden, the humble shovel is often permitted.</p>

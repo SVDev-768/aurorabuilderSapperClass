@@ -23,4 +23,22 @@
             <set name="release">20180625</set>
 		</setters>
 	</element>
+
+	<element name="Shovel Homebrew" type="Source" source="Homebrew" id="ID_WOTC_SOURCE_SHOVEL_HOMEBREW">
+		<description>
+			<p><strong>A homebrew shovel created in  among the world of D&amp;D.</strong></p>
+        </description>
+		<setters>
+			<set name="abbreviation">SHVLHB</set>
+            <set name="url">https://www.dandwiki.com/wiki/Shovel_(5e_Equipment)</set>
+            <set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+            <set name="official">false</set>
+			<set name="supplement">false</set>
+			<set name="playtest">false</set>
+			<set name="third-party">false</set>
+			<set name="homebrew">true</set>
+			<set name="league">false</set>
+            <set name="release"></set>
+		</setters>
+	</element>
 </elements>
