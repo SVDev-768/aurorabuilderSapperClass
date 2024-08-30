@@ -3,7 +3,7 @@
     <info>
         <name>Tumber Homebrew Sapper</name>
         <update version="0.0.3">
-        <file name="aurora-sapper-homebrew.index" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew.index" />
+        <file name="tumbler-sapper-homebrew.index" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew.index" />
         </update>
     </info>
     <files>
