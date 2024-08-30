@@ -2,7 +2,7 @@
 <index>
     <info>
         <name>Tumber Homebrew Sapper</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
         <file name="aurora-sapper-homebrew.index" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/aurora-sapper-homebrew.index" />
         </update>
     </info>
@@ -10,5 +10,7 @@
         <file name="items-tools.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/items-tools.xml" />
         <file name="items-weapons.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/items-weapons.xml" />
         <file name="sapper.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/sapper.xml" />
+        <file name="Sapper-Icon.png" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/Sapper-Icon.png" />
+        <file name="source.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/source.xml" />
     </files>
 </index>
