@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.4">
-			<file name="sources.xml" url="" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/user/source.xml" />
 		</update>
 	</info>
 	<element name="Sapper Homebrew" type="Source" source="Homebrew" id="ID_WOTC_SOURCE_SAPPER_HOMEBREW">

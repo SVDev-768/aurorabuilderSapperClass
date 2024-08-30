@@ -3,14 +3,14 @@
     <info>
         <name>Tumber Homebrew Sapper</name>
         <update version="0.0.3">
-        <file name="tumbler-homebrew-sapper.index" url="" />
+        <file name="tumbler-homebrew-sapper.index" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/user/tumbler-homebrew-sapper.index" />
         </update>
     </info>
     <files>
-        <file name="items-tools.xml" url="" />
-        <file name="items-weapons.xml" url="" />
-        <file name="sapper.xml" url="" />
-        <file name="Sapper-Icon.png" url="" />
-        <file name="source.xml" url="" />
+        <file name="items-tools.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/user/items-tools.xml" />
+        <file name="items-weapons.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/user/items-weapons.xml" />
+        <file name="sapper.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/user/sapper.xml" />
+        <file name="Sapper-Icon.png" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/user/Sapper-Icon.png" />
+        <file name="source.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/user/source.xml" />
     </files>
 </index>
