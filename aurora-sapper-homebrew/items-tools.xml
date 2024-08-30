@@ -9,7 +9,7 @@
     </info>
 
     <!-- A custom tool that is commonly used by the homebrew "Sapper" Class-->
-    <element name="Sapper's Kit" type="Item" source="Sapper Homebrew" id="ID_BDNDHB_SHB_ITEM_SAPPERS_KIT">
+    <element name="Sapper's Kit" type="Item" source="Sapper Homebrew" id="ID_WOTC_SHB_ITEM_SAPPERS_KIT">
         <description>
             <p class="indent"><strong><em>Components.</em></strong> Vials, rags, corks, fuses, adhesive, a mechanical drill, some small basic tools, circular caps, scored metal sheaths, various herbs, and healthy supply of sap powder</p>
             <p class="indent"><strong><em>Brewing.</em></strong> Including a pinch of sap powder into recipes you concoct is what makes the recipes explosive. The amount of explosives you can safely carry at one time is dictated by the Max Explosives column of the Sapper Table.</p>
