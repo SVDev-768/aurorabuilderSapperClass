@@ -9,6 +9,6 @@
     <files>
         <file name="items-tools.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/items-tools.xml" />
         <file name="items-weapons.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/items-weapons.xml" />
-        <file name="sapper.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/sapper.xml" />
+        <file name="sapper.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/aurora-sapper-homebrew/sapper.xml" />
     </files>
 </index>
