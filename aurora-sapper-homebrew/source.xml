@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.3">
+			<file name="sources.xml" url="" />
+		</update>
+	</info>
+	<element name="Sapper Homebrew" type="Source" source="Core" id="ID_TMBLR_SOURCE_SAPPER_HOMEBREW">
+		<description>
+			<p><strong>A homebrew class created on Tumblr to create a unique spellcaster among the world of D&amp;D.</strong></p>
+        </description>
+		<setters>
+			<set name="abbreviation">SHB</set>
+            <set name="url">https://www.tumblr.com/brewskis-dnd-homebrewery/175262046268/sapper</set>
+            <set name="image"></set>
+            <set name="author" abbreviation="TMBLR" url="http://dnd.wizards.com">Wizards of the Coast</set>
+            <set name="homebrew">true</set>
+            <set name="release">20180625</set>
+		</setters>
+	</element>
+</elements>
