@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Sapper</name>
+        <update version="0.1.2">
+            <file name="class-sapper.xml" url="https://raw.githubusercontent.com/SVDev-768/aurorabuilderSapperClass/main/sapper.xml?token=GHSAT0AAAAAACT4URZ7KURHLELX6OZQ4TUQZWAHHAA" />
+        </update>
+    </info>
+    
+    <element name="Sapper" type="Class" source="Homebrew" id="ID_WOTC_HB_CLASS_SAPPER">
+        <description>
+            <p>A dwarf charges forward toward the army of ghouls. In his hand is a small pipe, capped and sealed tightly at the ends. He throws it and it explodes on impact, setting fire to the creatures closest to the blast and rending the flesh of the others in a deadly cloud of shrapnel.</p>
+            <p class="indent">A tiefling crouches before a locked door and produces a bit of grey putty and a fuse from her pouch. She inserts the putty into the lock, attaches the fuse, and lights it. After a moment there is an audible crack as a small, focused explosion destroys the locking mechanism from the inside.</p>
+            <p class="indent">Sappers are members of a nameless secret society with expert knowledge of a magical, incendiary substance called "sap powder", which they use to create various explosive devices. Over time, sappers have applied their talents to mining, demolition, breaching fortifications, and even the occasional assassination.</p>
+            <p class="indent">Wherever objects are exploding you will likely find a sapper.</p>
+            <h4>ARCANE EXPLOSIVES</h4>
+            <p>Sap powder can be dissolved in liquid or combined with other dry solids to create powerful incendiary effects. The ingredients and rituals used in the creation of this magical substance are a highly guarded secret, known only to a few in the upper echelons of the worldwide, secret sappers' society. In order to learn the formula, one must achieve a high level of knowledge and spirituality based on concepts of engineering and magical alchemy. As a result, average sappers must rely on their proficiency with a pre-assembled <strong>Sapper's Kit</strong> containing this powder in order to create their explosives.</p>
+            <h4>CREATING A SAPPER</h4>
+            <p>There are many potential questions to ask yourself when creating a sapper. For example, how did you get inducted into the secret order of sappers? Were you once a member of an engineering army corps?</p>
+            <p>Perhaps you come from a long line of civilian engineers with an illustrious family history in the sappers' order. Now that you've been inducted, why did you begin adventuring? Were you sent out on a dark and secret mission by the local chapter of your order? Maybe going on a particular quest is necessary for you to gain the experience needed to advance into sapper leadership.</p>
+            <p>As a class, Sappers tend to place a high value on learning important life lessons, conveying them through the lens of engineering analogies. Is there another sapper you look up to as a role model? Do you have a few favorite philosophical quotes? Consider how your spirituality grows as you gain experience with your explosives.</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make a sapper quickly by following these suggestions. First, Dexterity should be your highest ability score, followed by Constitution. Second, choose either the Acolyte, Noble, or Soldier background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As a Sapper, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per sapper level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per sapper level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, medium armor, heavy armor</li>
+				<li><strong>Weapons:</strong> Clubs, daggers, handaxes, hammers, darts, crossbows, battleaxes, morningstars, warhammers</li>
+				<li><strong>Tools:</strong> Sapper's Kit</li>
+            </ul>
+            <ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Dexterity, Intelligence</li>
+				<li><strong>Skills:</strong> Choose two from Arcana, History, Investigation, Nature, Slieght of Hand, and Stealth</li>
+			</ul>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+				<li>(a) studded leather and a shield or (b) a breast plate</li>
+				<li>(a) a Light Crossbow and 20 bolts or (b) a morningstar</li>
+				<li>a handaxe and a dagger</li>
+				<li>(a) a Dungeoneer's Pack or (b) an Explorer's Pack</li>
+                <li>a Sapper's Kit and 3 premade Vollokoff's Cocktails (described below)</li>
+			</ul>
+            <p>Alternatively you may start with 4d4 * 10gp to buy your own equipment.</p>
+            <h5 class="caption">THE SAPPER</h5>
+            <table class="class-features">
+                <thead>
+                    <tr><td class="col-5">Level</td><td class="col-10">Proficiency Bonus</td><td class="col-10">Max Explosivess</td><td class="col-10">Cocktails &amp; Tickers</td><td class="col-10">Focus Charges</td><td class="col-5">Maimers</td><td class="col-10">Arcane Bombs</td><td class="col-60 left">Features</td></tr>
+                </thead>
+                <tr><td> 1st</td><td>+2</td><td>5</td><td>5</td><td>-</td><td>-</td><td>-</td><td class="left">Sappers' Secrets, Vollokoff's Cocktails</td></tr>
+                <tr><td> 2nd</td><td>+2</td><td>6</td><td>5</td><td>1</td><td>-</td><td>-</td><td class="left">Focus Charges</td></tr>
+                <tr><td> 3rd</td><td>+2</td><td>8</td><td>7</td><td>1</td><td>-</td><td>-</td><td class="left">Caustics</td></tr>
+                <tr><td> 4th</td><td>+2</td><td>8</td><td>7</td><td>1</td><td>-</td><td>-</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td> 5th</td><td>+3</td><td>11</td><td>9</td><td>1</td><td>1</td><td>-</td><td class="left">Maimers, Mixins</td></tr>
+                <tr><td> 6th</td><td>+3</td><td>12</td><td>9</td><td>2</td><td>1</td><td>-</td><td class="left">Potent Cocktails</td></tr>
+                <tr><td> 7th</td><td>+3</td><td>14</td><td>11</td><td>2</td><td>1</td><td>-</td><td class="left">Tickers</td></tr>
+                <tr><td> 8th</td><td>+3</td><td>14</td><td>11</td><td>2</td><td>1</td><td>-</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td> 9th</td><td>+4</td><td>17</td><td>13</td><td>2</td><td>2</td><td>-</td><td class="left">Potent Focus Charges</td></tr>
+                <tr><td>10th</td><td>+4</td><td>18</td><td>13</td><td>3</td><td>2</td><td>-</td><td class="left">Incendiary Strike</td></tr>
+                <tr><td>11th</td><td>+4</td><td>20</td><td>15</td><td>3</td><td>2</td><td>2</td><td class="left">Arcane Bombs</td></tr>
+                <tr><td>12th</td><td>+4</td><td>20</td><td>15</td><td>3</td><td>2</td><td>2</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>13th</td><td>+5</td><td>20</td><td>15</td><td>3</td><td>3</td><td>2</td><td class="left">Potent Maimers</td></tr>
+                <tr><td>14th</td><td>+5</td><td>20</td><td>15</td><td>4</td><td>3</td><td>3</td><td class="left">Potent Caustics</td></tr>
+                <tr><td>15th</td><td>+5</td><td>20</td><td>15</td><td>4</td><td>3</td><td>3</td><td class="left">Mixin Master</td></tr>
+                <tr><td>16th</td><td>+5</td><td>20</td><td>15</td><td>4</td><td>3</td><td>3</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>17th</td><td>+6</td><td>20</td><td>15</td><td>4</td><td>4</td><td>3</td><td class="left">Potent Arcane Bombs</td></tr>
+                <tr><td>18th</td><td>+6</td><td>20</td><td>15</td><td>5</td><td>4</td><td>4</td><td class="left">Safety Expert</td></tr>
+                <tr><td>19th</td><td>+6</td><td>20</td><td>15</td><td>5</td><td>4</td><td>4</td><td class="left">Ability Score Improvement</td></tr>
+                <tr><td>20th</td><td>+6</td><td>22</td><td>15</td><td>5</td><td>4</td><td>5</td><td class="left"> Sapper Savant</td></tr>
+            </table>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAP_SECRETS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_COCKTAIL_BASE" />
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_CAUSTICS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ABILITYSCOREIMPROVEMENT_SAPPER"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXINS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_TICKERS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_FOCUS_CHARGES"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_INCENDIARY_STRIKE"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ARCANE_BOMBS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_MAIMERS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_CAUSTICS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXIN_MASTER"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_ARCANE_BOMBS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAFETY_EXPERTS"/>
+            <div element="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAPPER_SAVANT"/>
+        </description>
+        <sheet display="false">
+            <description>A magical demolotion expert who uses exoplosives from mining to breaching forts.</description>
+        </sheet>
+        <setters>
+            <set name="short">A magical demolotion expert who uses exoplosives from mining to breaching forts.</set>
+            <set name="hd">d8</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <select type="Proficiency" name="Skill Proficiency (Sapper)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="2" requirements="!ID_WOTC_HB_MULTICLASS_SAPPER" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAP_SECRETS" level="1"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS" level="1"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_COCKTAIL_BASE" level="1"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES" level="2"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_CAUSTICS" level="3"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ABILITYSCOREIMPROVEMENT_SAPPER" level="4" />
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS" level="5"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXINS" level="5"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS" level="6"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_TICKERS" level="7"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_FOCUS_CHARGES" level="9"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_INCENDIARY_STRIKE" level="10"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ARCANE_BOMBS" level="11"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_MAIMERS" level="13"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_CAUSTICS" level="14"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXIN_MASTER" level="15"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_ARCANE_BOMBS" level="17"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAFETY_EXPERTS" level="18"/>
+            <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAPPER_SAVANT" level="20"/>
+        </rules>
+        <multiclass id="ID_WOTC_HB_MULTICLASS_SAPPER">
+            <prerequisite>Dexterity 13</prerequisite>
+            <requirements>[dex:13]</requirements>
+            <setters>
+                <set name="multiclass proficiencies">Light armor, medium armor, one skill from the class's skill list, sapper's kit</set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+                <select type="Proficiency" name="Skill Proficiency (Sapper)" supports="Skill,Sapper" number="1"/>
+                <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT" />
+            </rules>
+        </multiclass>
+    </element>
+    <element name="Sapper's Secrets" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAP_SECRETS">
+        <description>
+            <p>Beginning at level 1 you are proficient with a Sapper's Kit which contains all the materials you will need to create explosives. Only characters with at least one Sapper level can gain proficiency with a Sapper's Kit. </p>
+            <p class="indent">Including a pinch of sap powder into recipes you concoct is what makes the recipes explosive. The amount of explosives you can safely carry at one time is dictated by the Max Explosives column of the Sapper Table. Your explosives are well-made and enclosed in protective casings. Unless otherwise specified, they can not be detonated while you are carrying them due to enemy attacks.</p>
+            <p class="indent">Since your ability to do damage is related to your ability to build, place, and throw explosive devices, you can use Dexterity as your attack and damage modifiers. Damage dealt by your explosives is magical damage.</p>
+            <p class="indent">Various class features will require targets to make saving throws. Unless otherwise specified, these should be made against your Skill DC, which is:</p>
+            <p class="indent"><strong>Skill DC</strong> = 8 + your proficiency bonus + your dexterity modifier</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency with a Sapper's Kit. The amount of explosives you can safely carry at one time is dictated by the Max Explosives Column of the Sapper Table. You can use Dexterity as your attack and damage modifiers. Damage dealt by your explosives is magical damage. Various class features will require targets to make saving throws. Unless otherwise specified, these should be made against your <b>Skill DC</b> (8 + Prof. Bonus ({{prof-bonus:amount}}) + Your Dexterity Modifier)</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT" />
+
+            <stat name="prof-bonus:amount" value="2" level="1" />
+			<stat name="prof-bonus:amount" value="1" level="5" />
+			<stat name="prof-bonus:amount" value="1" level="9" />
+			<stat name="prof-bonus:amount" value="1" level="13" />
+			<stat name="prof-bonus:amount" value="1" level="17" />
+        </rules>
+    </element>
+    <element name="Vollokoff's Cocktails" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_VOLLOKOFF_COCKTAILS">
+        <description>
+            <p>Starting at level 1 you can brew Vollokoff's Cocktails.</p>
+            <p class="indent">A cocktail consists of a vial full of sap (a liquid solution containing sap powder) that you throw.</p>
+            <p class="indent"><b>Damage rules.</b> On impact, it explodes in a 10 ft cube.</p>
+            <p class="indent"><b>DC Saves.</b> Creatures inside the cube must make a Dexterity saving throw against your Skill DC. <b>Skill DC:</b> 8 + your proficiency bonus + your dexterity modifier. A creature takes fire damage equal to 1d8 + your Dexterity modifier on a failed save or half as much on a successful one.</p>
+            <p class="indent"><b>Brewing.</b> Vollokoff's Cocktails can be brewed during a short or long rest. The maximum amount of cocktails you can carry at once is dictated by the Cocktails &amp; Tickers column of the Sapper table. </p>
+        </description>
+        <sheet>
+            <description>You can brew Vollokoff's Cocktails, a throwable cocktail consists of a vial full of sap (a liquid solution containing sap powder). (Size of cube: {{volcocktail-range:amount}}, Damage: {{volcocktail-dice:count}}d8 + Dex. Modifier)</description>
+        </sheet>
+        <rules>
+            <stat name="volcocktail-range:amount" value="10" level="1" />
+            <stat name="volcocktail-range:amount" value="5" level="6" />
+            <stat name="volcocktail-dice:count" value="1" level="1" />
+            <stat name="volcocktail-dice:count" value="1" level="6" />
+        </rules>
+        <!--Add rules bonuses for when Potent Cocktails is unlocked-->
+    </element>
+    <element name="Cocktail Base" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_COCKTAIL_BASE">
+        <description>
+            <p>Vollokoff's Cocktails are the base component used in making a few different types of explosives. All explosives with a cocktail base are labeled as such within their descriptions. Cocktails and cocktail-based explosives take on the following properties:</p>
+            <p class="indent">When you use a cocktail-based explosive, roll 1d20 as if you were making an attack roll. If you roll 2-5, the charge doesn't detonate. If you roll a 1, it explodes in your hand and you must make the associated Dexterity saving throw. Make the save with disadvantage but do not add any modifiers to the damage roll.</p>
+            <p class="indent">Carrying cocktails is dangerous. Under certain conditions, cocktail-based explosives can accidentally detonate. When they do, all the explosives you are carrying detonate. This can happen under the following conditions:</p>
+            <ul>
+                <li>If you fall more than 5 feet, roll 1d10. If you roll a 1, they detonate.</li>
+                <li>If you take fire damage, roll 1d20. If you roll a 1, they detonate.</li>
+            </ul>
+            <p>When your explosives accidentally detonate, you automatically fail any saving throws imposed by them and must roll full damage for each device, with the caveat that you do not add any modifiers to any of these damage rolls and the event does not kill you outright, though it may reduce you to 0 hit points.</p>
+        </description>
+        <sheet>
+            <description>When you use a cocktail-based explosive, roll 1d20 as if you were making an attack roll. If you roll 2-5, the charge doesn't detonate. If you roll a 1, it explodes in your hand and you must make the associated Dexterity saving throw. Make the save with disadvantage but do not add any modifiers to the damage roll.
+            Under certain conditions, cocktail-based explosives can accidentally detonate. This can happen under either falling more than 5 feet and rolling a 1 on a 1d10 <b>or</b> you take fire damage and roll a 1 on a 1d20
+            If your explosives accidentally detonate, you automatically fail any saving throws and roll full damage for each device without any modifiers. This event does not kill you, but may reduce you to 0 HP</description>
+        </sheet>
+    </element>
+    <element name="Focus Charges" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_FOCUS_CHARGES">
+        <description>
+            <p>Starting at level 2 you can forge focus charges. A focus charge is comprised of a short fuse attached to a bit of moldable putty that can be squeezed into small holes or stuck to relatively flat surfaces.</p>
+            <p class="indent">It takes a full minute to prepare a focus charge and 10 seconds for the fuse to burn before the charge detonates. Because sap takes a few hours to distill and condense into charge putty, you can only make these during a long rest.</p>
+            <p class="indent">You may place multiple focus charges into a single area to increase the damage when the charge goes off. The maximum amount of focus charges you can carry at once is dictated by the Focus Charges column of the Sapper table. </p>
+            <p class="indent">To use a focus charge, make an attack roll against the object you are attempting to damage or destroy. If you successfully breach the object's AC, it takes force damage equal to 3d8 + your Dexterity modifier. Add another 3d8 for every charge you stack. Because this is a precision explosion, items behind the affected object (i.e items inside a chest or behind a door) are unaffected as long as you don't roll a natural 1 on your attack roll.</p>
+            <p class="indent">When a focus charge detonates, it is noisy. A loud crack can be heard 100 ft. away.</p>
+        </description>
+        <sheet>
+            <description>You can forge focus charges, which is comprised of a short fuse attached to a bit of moldable putty that can be squeezed into small holes or stuck to relatively flat surfaces. (Attack rolls: {{focus-charges-dice:amount}}, Damage: 3d{{focus-charges:count}})</description>
+        </sheet>
+        <rules>
+            <stat name="focus-charges-dice:amount" value="1" level="2" />
+            <stat name="focus-charges-dice:amount" value="2" level="9" />
+            <stat name="focus-charges:count" value="8" level="2" />
+            <stat name="focus-charges:count" value="4" level="9" />
+        </rules>
+    </element>
+    <element name="Caustics" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_CAUSTICS">
+        <description>
+            <p>Beginning at level 3 you have discovered that sap is a caustic substance. It can be applied to a wound and then ignited in order to seal the flesh back together. 3 times per long rest you can cauterize a wound, either on yourself or on another creature. This technique regains hit points equal to 1d6 + your Prof. Bonus ({{prof-bonus:amount}}) and takes 5 minutes to perform.</p>
+        </description>
+        <sheet usage="3/Long Rest">
+            <description> You can cauterize a wound, either on yourself or on another creature. This technique regains hit points equal to {{caustics:count}}d6 + your proficiency bonus and takes 5 minutes to perform.</description>
+        </sheet>
+        <rules>
+            <stat name="caustics:count" value="1" level="3" />
+            <stat name="caustics:count" value="1" level="14" />
+        </rules>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ABILITYSCOREIMPROVEMENT_SAPPER">
+        <description>
+            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Improvement Option (Sapper 4)" supports="Improvement Option,Sapper,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Sapper 8)" supports="Improvement Option,Sapper,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Sapper 10)" supports="Improvement Option,Sapper,10" level="10" />
+			<select type="Class Feature" name="Improvement Option (Sapper 12)" supports="Improvement Option,Sapper,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Sapper 16)" supports="Improvement Option,Sapper,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Sapper 19)" supports="Improvement Option,Sapper,19" level="19" />
+		</rules>
+    </element>
+    <element name="Maimers" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MAIMERS">
+        <description>
+            <p><b>Cocktail Base</b></p>
+            <p>At level 5, you have learned to forge maimers - a spinoff of Vollokoff's Cocktail packed tightly inside a scored metal sheath filled with nails. Like a cocktail, it is thrown and then detonates on impact. When it explodes, it does so in a 20 ft cube centered on a point you choose within range.</p>
+            <p class="indent">Creatures within the innermost 10 ft. of the cube take 2d8 fire damage + 2d8 piercing damage. Creatures in the outer area take only 2d8 piercing damage. All creatures in the affected area make a Dexterity saving throw and take only half damage if they succeed.</p>
+            <p class="indent">Maimers take a few hours to build so it takes 2 long rests to make them, though you can make many simultaneously. The maximum amount of maimers you can carry at once is dictated by the Maimers column of the Sapper table. </p>
+        </description>
+        <sheet>
+            <description>You can now brew a spinoff of Vollokoff's Cocktail packed tightly inside a scored metal sheath filled with nails. (Fire and Piercing Damage: {{maimer-dice:amount}}d8)</description>
+        </sheet>
+        <rules>
+            <stat name="maimer-dice:amount" value="2" level="5" />
+            <stat name="maimer-dice:amount" value="2" level="13" />
+        </rules>
+    </element>
+    <element name="Mixins" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXINS">
+        <description>
+            <p>Starting at level 5 you have greater control over the arcane nature of your sap. When creating a cocktailbased explosive, you can alter the mixture such that its fire damage is replaced by a different damage type. Keep track of how many explosives you have of each type. Choose one from the following damage types for each explosive you build: acid, cold, force, lightning, necrotic, radiant, thunder.</p>
+        </description>
+        <sheet>
+            <description>When creating a cocktailbased explosive, you can alter the mixture such that its fire damage is replaced by one of the following: acid, cold, force, lightning, necrotic, radiant, thunder. Keep track of how many explosives you have of each type.</description>
+        </sheet>
+    </element>
+    <element name="Potent Cocktails" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_COCKTAILS">
+        <description>
+            <p>Starting at level 6 your skill in crafting cocktail-based explosives has increased and the rules for the d20 roll when you throw a cocktail have changed as a result. When you roll a 1, the bomb doesn't go off. If you roll anything else, it functions normally. The device never accidentally goes off in your hand.</p>
+            <p class="indent">The size of the damage cube for Vollokoff's Cocktails also increases to 15 feet and the potential damage dealt becomes 2d8 + your dexterity modifier. It is fire damage by default but is still changeable when you use the mixin feature.</p>
+        </description>
+        <sheet>
+            <description>When you roll a 1, cocktail-based bombs doesn't go off. Otherwise, it functions normally. The device never accidentally goes off in your hand. It is fire damage by default, but it's still changeable when you use the mixin feature.</description>
+        </sheet>
+        <!-- Add changing variables to normal Cocktails-->
+    </element>
+    <element name="Tickers" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_TICKERS">
+        <description>
+            <p><b>Cocktail Base</b></p>
+            <p>At level 7 you have learned to control the timing of your detonations and can now forge tickers - another cocktail spinoff using adhesive and an extra ingredient that begins dissolving once the ticker is placed. Once the solution reaches a particular alchemical state due to the dissolving ingredient, the ticker detonates. </p>
+            <p class="indent">You may affix up to 3 tickers onto surfaces, objects, or creatures you can reach while taking movement, or in place of your movement. At the end of your next turn (i.e. 6 seconds later) all the tickers you placed on this turn explode, affecting all creatures within a 15 ft. radius of each explosion center</p>
+            <p class="indent">All creatures in the affected area make a Dexterity saving throw, taking fire damage (or your mixin damage type) equal to 1d12 + your dexterity modifier on a failed save or half as much on a successful one. If blast areas overlap, creatures within overlapping blast areas must make saving throws and associated damage rolls for each blast contributing to the overlap.</p>
+            <p class="indent">If you affix a ticker to a creature's body, it makes a Wisdom saving throw (DC equal to 15 + your proficiency bonus) at the beginning of its turn. On a failed save, it does not notice you have placed an explosive on its body and it automatically fails the Dexterity save when the device detonates.</p>
+            <p class="indent">Tickers do not explode on impact if thrown. They can be made during a long or short rest. The maximum amount of tickers you can carry at once is dictated by the Cocktails &amp; Tickers column of the Sapper table.</p>
+        </description>
+        <sheet>
+            <description>You have learned to control the timing of your detonations and can now forge tickers - another cocktail spinoff using adhesive and an extra ingredient that begins dissolving once the ticker is placed.</description>
+        </sheet>
+    </element>
+    <element name="Potent Focus Charges" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_FOCUS_CHARGES">
+        <description>
+            <p>Starting at level 9, you get +2 to attack rolls made with focus charges. The damage roll changes to 3d12 + your Dexterity modifier.</p>
+        </description>
+        <sheet display="false">
+            <description>Starting at level 9, you get +2 to attack rolls made with focus charges. The damage roll changes to 3d12 + your Dexterity modifier.</description>
+        </sheet>
+        <!-- Add changing variables in normal Focus charges-->
+    </element>
+    <element name="Incendiary Strike" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_INCENDIARY_STRIKE">
+        <description>
+            <p>Beginning at level 10, 3 times per long rest you can use a bonus action to smear some pure sap onto a melee weapon or ranged projectile of your choice. The next time a creature is struck with the weapon/projectile, the sap ignites on impact and the creature takes an additional 1d8 fire damage, after which time the weapon/projectile returns to normal.</p>
+        </description>
+        <sheet usage="3/Long Rest">
+            <description>You can use a bonus action to smear some pure sap onto a melee weapon or ranged projectile of your choice. The next time a creature is struck with the weapon/projectile, the sap ignites on impact and the creature takes an additional 1d8 fire damage, after which time the weapon/projectile returns to normal.</description>
+        </sheet>
+    </element>
+    <element name="Arcane Bomb" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_ARCANE_BOMBS">
+        <description>
+            <p>At level 11, you have learned to package spells into your explosives. To make an arcane bomb, choose any spell of 5th level or lower that functions as a ranged attack and deals damage in a cube or sphere. You brew a special sap powder recipe with the ability to trigger this spell and place it into a vial. Throwing the vial constitutes casting that spell at 5th level. The Spell DC for all arcane bombs is your Skill DC.</p>
+            <p class="indent">Arcane bombs may be made during a long rest. The maximum amount of arcane bombs you can carry at once is dictated by the Arcane Bombs column of the Sapper table.</p>
+        </description>
+        <sheet>
+            <description>You've learned to package spells into your explosives. For each arcane bomb made during long rests, choose any 5th level spell (or lower) that functions as a ranged attack and deals damage in either a cube or a sphere. The spell DC for all arcane bombs is your Skill DC.</description>
+        </sheet>
+        <rules>
+            <stat name="arcaneBomb-spell:level" value="5" level="11" />
+            <stat name="arcaneBomb-spell:level" value="1" level="17" />
+        </rules>
+    </element>
+    <element name="Potent Maimers" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_MAIMERS">
+        <description>
+            <p>At level 13 your maimers are substantially more lethal. The damage dice used in calculating damage from your maimer explosions increases from 2d8 to 4d8.</p>
+        </description>
+        <sheet display="false">
+            <description>At level 13 your maimers are substantially more lethal. The damage dice used in calculating damage from your maimer explosions increases from 2d8 to 4d8.</description>
+        </sheet>
+        <!-- Edit rules in normal Maimers to account for this-->
+    </element>
+    <element name="Potent Caustics" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_CAUSTICS">
+        <description>
+            <p>At level 14 you have gotten much better at treating wounds. When you use the Caustics technique, a beneficiary creature regains hit points equal to 2d6 + your proficiency bonus.</p>
+        </description>
+        <sheet display="false">
+            <description>At level 14 you have gotten much better at treating wounds. When you use the Caustics technique, a beneficiary creature regains hit points equal to 2d6 + your proficiency bonus.</description>
+        </sheet>
+        <!-- Edit rules in normal Caustics to account for this-->
+    </element>
+    <element name="Mixin Master" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_MIXIN_MASTER">
+        <description>
+            <h5>Disclaimer: Write this down in the notes due to how much info is here</h5>
+            <p>Beginning at level 15 you have learned to create a few new cocktail recipes using mixins. When you make a Vollokoff's Cocktail, you may now choose to make one of the following special cocktail types instead of a normal cocktail.</p>
+            <p><b>Flashbang</b></p>
+            <p>Creatures within a 30 ft. radius of a point you choose within range must make a Dexterity saving throw. On a failed save, a creature is Stunned for its next 2 turns. It also takes 1d12 radiant damage and 1d12 thunder damage. On a successful save, a creature takes half damage and is not Stunned. Thunder can be heard 100 ft. away.</p>
+            <p><b>Smoke Grenade</b></p>
+            <p>A cloud of black smoke appears in a 40 ft. cube centered on a point you choose within range. The cloud spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>
+            <p><b>Pressure Wave</b></p>
+            <p>Creatures within a 15 ft. cone beginning at a point you choose within range must make a Dexterity saving throw. On a failed save, a creature is pushed back 15 ft. and is knocked prone. On a successful save, it is pushed back 5 ft. and is not prone.</p>
+        </description>
+        <sheet>
+            <description>When you make a Vollokoff's Cocktail, you may now choose to make one of the following special cocktail types instead of a normal cocktail: Flashbang, Smoke Grenade, Pressure Wave</description>
+        </sheet>
+    </element>
+    <element name="Potent Arcane Bombs" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_POTENT_ARCANE_BOMBS">
+        <description>
+            <p>At level 17 when you make arcane bombs, you can imbue them with 6th level spells.</p>
+        </description>
+        <sheet display="false">
+            <description>At level 17 when you make arcane bombs, you can imbue them with 6th level spells.</description>
+        </sheet>
+        <!-- Edit arcane bombs to ajust for potent arcane bombs-->
+    </element>
+    <element name="Safety Expert" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAFETY_EXPERTS">
+        <description>
+            <p>At level 18 you have mastered the techniques for safely storing and carrying your explosives. There is no longer any risk that your cocktail-based explosives will accidentally detonate under any conditions</p>
+        </description>
+        <sheet>
+            <description>There's no longer any risk that your cocktail-based explosives will accidentally detonate under any conditions</description>
+        </sheet>
+        <!-- See if it's possible to use boolean statements on the accidental detonation rules-->
+    </element>
+    <element name="Sapper Savant" type="Class Feature" source="Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_SAPPER_SAPPER_SAVANT">
+        <description>
+            <p> At level 20 you have become so skilled at engineering, controlling, and preparing for the way your devices explode that you can no longer be injured if you are in the blast radius of an explosive that you deliberately trigger.</p>
+        </description>
+        <sheet>
+            <description> Because of how skill you are now at engineering, you can no longer be injured if you are in the blast radius of an explosive that you deliberately trigger.</description>
+        </sheet>
+    </element>
+</elements>
