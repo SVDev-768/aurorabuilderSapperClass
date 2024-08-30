@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.4">
-			<file name="sources.xml" url="" />
+		<update version="0.0.8">
+			<file name="sources.xml" url="https://github.com/SVDev-768/aurorabuilderSapperClass/blob/main/user/Homebrew%20Sapper/source.xml" />
 		</update>
 	</info>
 	<element name="Sapper Homebrew" type="Source" source="Homebrew" id="ID_WOTC_SOURCE_SAPPER_HOMEBREW">

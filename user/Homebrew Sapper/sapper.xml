@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Sapper</name>
-        <update version="0.1.4">
-            <file name="class-sapper.xml" url="" />
+        <update version="0.1.5">
+            <file name="class-sapper.xml" url="https://github.com/SVDev-768/aurorabuilderSapperClass/blob/main/user/Homebrew%20Sapper/sapper.xml" />
         </update>
     </info>
     
