@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Sapper</name>
-        <update version="0.1.5">
+        <update version="0.1.6">
             <file name="class-sapper.xml" url="https://github.com/SVDev-768/aurorabuilderSapperClass/blob/main/user/Homebrew%20Sapper/sapper.xml" />
         </update>
     </info>
@@ -103,6 +103,7 @@
             <set name="hd">d8</set>
         </setters>
         <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_BDNDHB_SHB_MULTICLASS_SAPPER" />
             <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_BDNDHB_SHB_MULTICLASS_SAPPER" />
             <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_BDNDHB_SHB_MULTICLASS_SAPPER" />
             <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_BDNDHB_SHB_MULTICLASS_SAPPER" />
@@ -151,6 +152,7 @@
                 <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
                 <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
                 <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
                 <select type="Proficiency" name="Skill Proficiency (Sapper)" supports="Skill,Sapper" number="1"/>
                 <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_SAPPERS_KIT" />
             </rules>
